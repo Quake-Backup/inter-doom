@@ -1336,12 +1336,12 @@ extern patch_t *stysslsh;
 #define HUSTR_E3M7_RUS  "t3v7: dhfnf d kbv,"                        // E3M7: Врата в Лимб
 #define HUSTR_E3M8_RUS  "t3v8: lbn"                                 // E3M8: Дит
 #define HUSTR_E3M9_RUS  "t3v9: rhjkbxbq cfl"                        // E3M9: Кроличий сад
-#define HUSTR_E4M1_RUS  "t4v1: gjl fljv"                            // E4M1: Под Адом
+#define HUSTR_E4M1_RUS  "t4v1: fl dyenhb"                           // E4M1: Ад Внутри
 #define HUSTR_E4M2_RUS  "t4v2: bcnbyyfz ytyfdbcnm"                  // E4M2: Истинная ненависть
-#define HUSTR_E4M3_RUS  "t4v3: bcnzpfybt ytxtcnbds["                // E4M3: Истязание нечестивых
+#define HUSTR_E4M3_RUS  "t4v3: jnltkb pks["                         // E4M3: Отдели Злых
 #define HUSTR_E4M4_RUS  "t4v4: ytelth;bvjt pkj"                     // E4M4: Неудержимое зло
 #define HUSTR_E4M5_RUS  "t4v5: jyb gjrf.ncz"                        // E4M5: Они покаются
-#define HUSTR_E4M6_RUS  "t4v6: ceghjnbd cb[ ytxtcnbds["             // E4M6: Супротив сих нечестивых
+#define HUSTR_E4M6_RUS  "t4v6: ceghjnbd nt,z ytxtcnbdj"             // E4M6: Супротив Тебя Нечестиво
 #define HUSTR_E4M7_RUS  "t4v7: b gjcktljdfk fl"                     // E4M7: И последовал Ад
 #define HUSTR_E4M8_RUS  "t4v8: lj ,tccthltxbz"                      // E4M8: До бессердечия
 #define HUSTR_E4M9_RUS  "t4v9: cnhf["                               // E4M9: Страх
