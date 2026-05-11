@@ -36,6 +36,13 @@ function(attach_split_debug target)
         set_target_properties(${target} PROPERTIES
             ADDITIONAL_CLEAN_FILES "${debug_path}"
         )
+        install(DIRECTORY
+            "${debug_path}"
+            DESTINATION "${CMAKE_INSTALL_BINDIR}"
+            OPTIONAL
+            EXCLUDE_FROM_ALL
+            COMPONENT "split_debug"
+        )
     else()
         set(debug_path "$<TARGET_FILE:${target}>.debug")
         add_custom_command(TARGET ${target} POST_BUILD
@@ -55,6 +62,13 @@ function(attach_split_debug target)
         )
         set_target_properties(${target} PROPERTIES
             ADDITIONAL_CLEAN_FILES "${debug_path}"
+        )
+        install(FILES
+            "${debug_path}"
+            DESTINATION "${CMAKE_INSTALL_BINDIR}"
+            OPTIONAL
+            EXCLUDE_FROM_ALL
+            COMPONENT "split_debug"
         )
     endif()
 endfunction()
