@@ -21,13 +21,13 @@ jobs:
         config:
           -
             display_name: "Windows | x86"
-            runner: "windows-2025"
+            runner: "windows-2025-vs2026"
             cmake_preset: 'ci-windows-86-dev'
             build_suffix: "x86"
             msvc_triplet_path: 'cmake/triplets/x86-windows.cmake'
           -
             display_name: "Windows | x64"
-            runner: "windows-2025"
+            runner: "windows-2025-vs2026"
             cmake_preset: 'ci-windows-64-dev'
             build_suffix: "x64"
             msvc_triplet_path: 'cmake/triplets/x64-windows.cmake'
